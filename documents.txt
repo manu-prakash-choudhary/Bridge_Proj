@@ -1,0 +1,10 @@
+'''
+---> 
+Models - Tensorflow.keras contains all Deep Learning models
+
+    1. Sequential Model: Linear stack of layers
+    2. Functional API: More flexible, multiple inputs and outputs, shared layers
+    3. Model Subclassing: Complete customization of models
+    4. Pretrained models: Transfer learning
+
+'''
