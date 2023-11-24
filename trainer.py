@@ -164,7 +164,7 @@ def load_model(model_name: str):
 
     elif model_name == 'gru':
         model = models.Sequential()
-        model.add(layers.GRU(10, input_shape=[None, 1], return_sequences=True))
+        model.add(layers.GRU(50, input_shape=[None, 1], return_sequences=True))
         model.add(layers.GRU(10, input_shape=[None, 1]))
         model.add(layers.Dense(1))
 
